@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active:
+      - dev
+
+---
+spring:
+  profiles:dev    #开放环境
+  application:
+    name:microservicecloud-config-teddy-dev
+
+---
+spring:
+  profiles:test  #测试环境
+  application:
+    name:microservicecloud-config-teddy-test
+#请保存未utf-8的格式
